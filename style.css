@@ -27,7 +27,7 @@ audio {
 
 /* Personalizar o botão de reprodução */
 audio::-webkit-media-controls-play-button {
-  background-color: #4caf50; /* Cor do botão de play */
+  background-color: red; /* Cor do botão de play */
   border-radius: 50%;
 }
 
@@ -97,7 +97,7 @@ button {
   padding: 10px 20px;
   font-size: 22px;
   margin: 10px;
-  background: #33090d;
+  background: #065708;
   color: white;
   cursor: pointer;
   border-radius: 5px;

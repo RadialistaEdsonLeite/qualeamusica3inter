@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const questions = [
     {
       song:
-        "https://radialistaedsonleite.github.io/qualeamusica3inter/AsTearsGoBy-TheRollingStones",
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/AsTearsGoBy-TheRollingStones.mp3",
       correct: "As Tears Go By",
       options: ["As Tears Go By", "Don’t Go Breaking My Heart", "I Will Survive", "Stayin' Alive"]
     },
@@ -16,86 +16,86 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/AmericanPie-DonMcLean.mp3",
-      correct: "American Pie",
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/DoYouLoveMe-Sharif%20DeanAndEvelineDHaese.mp3",
+      correct: "Do You Love Me",
       options: [
-        "Let’s Stay Together",
-        "Daniel",
-        "American Pie",
-        "Living for the City"
+        "Rocket Man",
+        "Rhinestone Cowboy",
+        "Do You Love Me",
+        "Fame"
       ]
     },
     {
       song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/Angie-TheRollingStones.mp3",
-      correct: "Angie",
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/ExcuseMe-Junior.mp3",
+      correct: "Excuse Me",
       options: [
-        "Angie",
-        "Goodbye Yellow Brick Road",
-        "Angel Of Mine",
-        "My Faces"
+        "Wasted Days",
+        "I’m Not in Love",
+        "The Hustle",
+        "Excuse Me"
       ]
     },
     {
       song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/AnotherBrickintheWall-PinkFloyd.mp3",
-      correct: "Another Brick in the Wall",
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/NoMoreTroubles-SharifDean.mp3",
+      correct: "No More Troubles",
       options: [
+        "Take It to the Limit",
+        "The Night the Lights",
+        "No More Troubles",
+        "The Chain"
+      ]
+    },
+    {
+      song:
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/SelfPity-MargrietEshuijs.mp3",
+      correct: "Self Pity",
+      options: [
+        "Self Pity",
+        "Go Your Own Way",
+        "Do You Feel Like We Do",
+        "I Want You to Want Me"
+      ]
+    },
+
+    {
+      song:
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/YouNeededMe-AnneMurray.mp3",
+      correct: "You Needed Me",
+      options: ["Love Rollercoaster", "You Ain’t Seen Nothing Yet", "I Will Survive", "You Needed Me"]
+    },
+
+    {
+      song:
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/TheEnd-EarlGrant.mp3",
+      correct: "The End",
+      options: [
+        "Free Bird",
+        "Heart of Glass",
+        "The End",
+        "Sweet Emotion"]
+    },
+    {
+      song:
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/TheresNoMoreCornOnTheBrasos-TheWalkers.mp3",
+      correct: "Theres No More Corn On The Brasos",
+      options: [
+        "Dream On",
+        "Walk This Way",
+        "Theres No More Corn On The Brasos",
+        "If You Love Me"
+      ]
+    },
+    {
+      song:
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/WhenYoureGone-MaggieMacNeal.mp3",
+      correct: "When Youre Gone",
+      options: [
+        "When Youre Gone",
         "Living for the City",
-        "Another Brick in the Wall",
         "The Way We Were",
-        "I Shot the Sheriff"
-      ]
-    },
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/BabyILoveYourWay-PeterFrampton.mp3",
-      correct: "Baby I Love Your Way",
-      options: [
-        "Rock Your Baby",
-        "Can’t Get Enough of Your Love, Babe  ",
-        "Baby I Love Your Way",
         "If I Can’t Have You"
-      ]
-    },
-
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/BadMoonRising-CreedenceClearwaterRevival.mp3",
-      correct: "Bad Moon Rising",
-      options: ["The Joker", "Bad Moon Rising", "Band on the Run", "If I Can’t Have You"]
-    },
-
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/MamyBlue-RickyShayne.mp3",
-      correct: "Mamy Blue",
-      options: [
-        "Rainbow",
-        "I Feel Love",
-        "Mamy Blue",
-        "Please Mr Postman"]
-    },
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/RainRainRain-SimonButterfly.mp3",
-      correct: "Rain Rain Rain",
-      options: [
-        "Blue Moon",
-        "Serenade to Cripton",
-        "Rain rain rain",
-        "My love for you"
-      ]
-    },
-    {
-      song:
-        "https://radialistaedsonleite.github.io/qualeamusica2inter/skylinepigeon_eltonjohn.mp3",
-      correct: "Skyline Pigeon",
-      options: [
-        "I Will Survive",
-        "Stayin' Alive",
-        "More Than a Woman",
-        "Skyline Pigeon"
       ]
     }
 
@@ -104,16 +104,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Descrições das músicas
   const descriptions = [
-    "B. J. Thomas. Lançada em 1972, é uma das baladas mais emocionantes do rock/pop da época. A música tem uma melodia suave e nostálgica, com um arranjo que mistura o rock clássico com elementos de gospel e doo-wop. A letra conta a história de um menino criado por uma mãe solteira, que encontra conforto nas canções de ninar que ela cantava para ele.",
-    "Gilbert O'Sullivan (1972): Uma balada melancólica e introspectiva que aborda temas de solidão e perda, com uma melodia suave contrastando com a letra triste. A interpretação sincera de Gilbert O’Sullivan fez dela um grande sucesso nos anos 70.",
-    "Don McLean (1971): Uma das composições mais emblemáticas da música folk-rock, American Pie é um épico de oito minutos que faz referências enigmáticas à cultura americana e à tragédia do The Day the Music Died (a morte de Buddy Holly, Ritchie Valens e Big Bopper em 1959).",
-    "The Rolling Stones (1973):  Uma das baladas mais famosas dos Rolling Stones, Angie tem uma melodia delicada e emotiva, com um solo de guitarra inesquecível e a interpretação melancólica de Mick Jagger. Embora haja especulações sobre a inspiração da música, Keith Richards afirmou que o nome foi escolhido aleatoriamente.",
-    "Pink Floyd (1979): Um dos maiores sucessos do Pink Floyd, essa música faz parte do álbum The Wall e critica o sistema educacional rígido e opressor. A icônica linha We don’t need no education virou um hino de rebeldia, impulsionado pelo uso inovador de um coral infantil.",
-    "Peter Frampton (1975): Uma das músicas mais românticas da década de 70, com uma melodia envolvente e a voz suave de Peter Frampton. Lançada no álbum Frampton Comes Alive!, se tornou uma das canções mais pedidas em rádios e regravada diversas vezes ao longo dos anos.",
-    "Creedence Clearwater Revival (1969):  Um rock enérgico e cativante, apesar de sua letra sombria que fala sobre presságios de destruição. A interpretação marcante de John Fogerty e o ritmo acelerado fizeram dessa canção um clássico do rock.",
-    "Simon Butterfly (1973):  Uma canção nostálgica e sentimental que se destacou na década de 70. Seu tom melancólico e melodia suave fizeram dela uma das músicas queridas pelos ouvintes da época, embora Simon Butterfly tenha sido um artista de poucos sucessos.",
-    "Ricky Shayne: Esta música foi originalmente composta pelo francês Hubert Giraud e gravada pela banda espanhola Pop-Tops, mas ganhou versões em vários idiomas e intérpretes diferentes. Uma das mais conhecidas foi a do cantor Ricky Shayne, que lançou sua versão em alemão e inglês, tornando a canção um grande sucesso na Europa.",
-    "Elton John (1969): Essa bela canção, presente no álbum Empty Sky (1969), foi uma das primeiras composições de sucesso da parceria entre Elton John e Bernie Taupin. A música fala sobre liberdade e o desejo de voar para longe, usando a metáfora de um pombo no céu. Curiosidade: Elton John gravou duas versões dessa música. A mais conhecida é a de 1973, regravada com um arranjo emocionante no piano (em vez do cravo usado na versão original)."
+    "The Rolling Stones 📌 Uma das primeiras músicas originais dos Stones, composta por Mick Jagger e Keith Richards. Diferente do rock energético da banda, essa canção traz um tom melancólico e orquestrado, mostrando uma faceta mais introspectiva do grupo.",
+    
+    "Procol Harum. 📌 Um dos maiores hinos do rock progressivo dos anos 60, inspirado na música clássica de Bach. O som etéreo e os versos enigmáticos fizeram da faixa um clássico atemporal, com interpretações variadas sobre seu verdadeiro significado.",
+    
+    "Sharif Dean & Eveline D’Haese. 📌 Essa canção de 1973 foi um grande sucesso na Europa, misturando pop e soft rock com um dueto marcante. Sharif Dean, de origem argelina, estudou na Bélgica e ficou conhecido por esse hit romântico com uma pegada quase teatral.",
+    
+    "📌 Junior (José María González), cantor espanhol dos anos 70 e 80, lançou essa balada pop marcante. Ele fazia parte da dupla Juan & Junior, que teve grande sucesso na música espanhola antes de seguir carreira solo.",
+    
+    "Sharif Dean. 📌 Outra canção do cantor Sharif Dean, que traz sua voz suave e envolvente. Embora não tenha sido tão famosa quanto Do You Love Me, esta música - No More Troubles - reflete bem o estilo romântico e melancólico do artista.",
+    
+    "Margriet Eshuijs. 📌 Margriet Eshuijs foi uma cantora holandesa de pop e jazz, mais conhecida por integrar a banda Lucifer, que lançou o hit House for Sale. Self Pity é uma das suas interpretações emocionantes, mostrando sua voz forte e expressiva.",
+    
+    "Anne Murray. 📌 Um dos maiores sucessos de Anne Murray, lançado em 1978. A música rendeu a ela um Grammy e se tornou um clássico das baladas românticas, sendo regravada por diversos artistas ao longo dos anos.",
+    
+    "Earl Grant. 📌 Canção de 1958 que se tornou um clássico do jazz e R&B. Earl Grant, um talentoso cantor e pianista, é frequentemente comparado a Nat King Cole devido ao timbre suave de sua voz. A música transmite uma sensação romântica e nostálgica.",
+    
+    "The Walkers 📌 Uma curiosa canção folk lançada pela banda holandesa The Walkers em 1971. O tema da música se inspira em canções tradicionais dos EUA, com uma melodia cativante e um toque de country rock europeu.",
+    
+    "Maggie MacNeal. 📌 Maggie MacNeal, cantora holandesa, ficou famosa por representar os Países Baixos no Eurovision em 1974. When You’re Gone é uma balada nostálgica que destaca sua voz única e expressiva."
     // Adicione as descrições das músicas aqui
     // ...
   ];
@@ -191,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let commentsHTML = "";
 for (let i = 0; i < questions.length; i++) {
-  commentsHTML += `<p><strong>Sobre "${questions[i].correct}":</strong> ${descriptions[i]}</p>`;
+  commentsHTML += `<p><strong>>>> "${questions[i].correct}":</strong> ${descriptions[i]}</p>`;
 }
 
     // Atualizando a tela final com a pontuação

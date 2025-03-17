@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qual é a Música? Clique abaixo, ouça e responda!</title>
+  <link rel="stylesheet" href="style.css"> <!-- Vinculando o arquivo CSS -->
+</head>
+
+<body>
+  <div id="game">
+    <h1>Qual é a Música?</h1>
+    <p id="question">Clique no play e responda Qual é a Música</p>
+    <div id="audio-container">
+      <audio id="audio" controls>
+        <source src="audio/musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+    </div>
+    <div id="options"></div>
+    <p id="score">Pontuação: 0</p>
+    <p id="music-comment" style="font-style: italic; margin-top: 20px;"></p> <!-- Comentário da música -->
+  </div>
+
+  <!-- Tela de Conclusão -->
+  <div id="final-screen" style="display: none; text-align: center; padding: 20px;">
+    <!-- O conteúdo será preenchido pelo JavaScript -->
+  </div>
+
+  <!-- Carregar o script no final do body -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

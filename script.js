@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const q = questions[currentQuestionIndex];
     audio.src = q.song;
-    questionText.textContent = "Qual é a música?";
+    questionText.textContent = "Ouça e responda!";
     optionsContainer.innerHTML = "";
 
     q.options.forEach((option) => {

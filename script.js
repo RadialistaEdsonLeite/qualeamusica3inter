@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const questions = [
     {
       song:
-        "https://radialistaedsonleite.github.io/qualeamusica3inter/AWhiterShadeofPale-ProcolHarum.mp3",
-      correct: "A Whiter Shade of Pale",
-      options: ["Bridge Over Troubled Water", "AWhiterShadeofPale-ProcolHarum", "Rock And Roll Lullaby", "Take Me Home, Country Roads"]
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/AsTearsGoBy-TheRollingStones",
+      correct: "As Tears Go By",
+      options: ["As Tears Go By", "Don’t Go Breaking My Heart", "I Will Survive", "Stayin' Alive"]
     },
     {
       song:
-        "https://radialistaedsonleite.github.io/qualeamusica3inter/AloneAgainNaturally-GilbertOSullivan.mp3",
-      correct: "Alone Again Naturally",
-      options: ["You needed me", "My way", "Do you wanna dance?", "Alone Again (Naturally)"]
+        "https://radialistaedsonleite.github.io/qualeamusica3inter/AWhiterShadeofPale-ProcolHarum.mp3",
+      correct: "A Whiter Shade of Pale",
+      options: ["If You Love Me", "A Whiter Shade of Pale", "Band on the Run", "If I Can’t Have You"]
     },
     {
       song:

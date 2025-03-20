@@ -218,7 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .map(
       (q) => `
         <div style="margin-bottom: 5px; text-align: center;">
-          <p>********>>>>>>>>>>>>>>>>>********</p> <!-- Aqui está o texto com os asteriscos -->
+          <p>↴  ↴  ↴</p> <!-- Aqui está o texto com os asteriscos -->
           <strong>${q.name} - ${q.artist}</strong>
           <img src="${q.image}" alt="${q.name}" style="width: ${IMAGE_SIZE}px; height: ${IMAGE_SIZE}px; display: block; margin: 5px auto;">
           <p>${q.description}</p>

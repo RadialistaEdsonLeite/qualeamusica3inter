@@ -55,31 +55,35 @@ document.addEventListener("DOMContentLoaded", () => {
     questionText.textContent = "Clique no play, ouça e responda!";
     optionsContainer.innerHTML = "";
 
-    q.options.forEach((option) => {
-      const btn = document.createElement("button");
-      btn.innerHTML = `<strong>${option.name}</strong><br><i>${option.artist}</i>`;
-      btn.classList.add("option");
-      btn.onclick = () => checkAnswer(option.name, option.artist);
-      optionsContainer.appendChild(btn);
-    });
+function checkAnswer(selectedOption, buttonElement) {
+  const correctAnswer = questions[currentQuestionIndex];
+  const buttons = document.querySelectorAll(".option-button");
 
-    setTimeout(() => {
-      audio.play().catch((error) => console.error("Erro ao reproduzir áudio:", error));
-    }, 500);
+  buttons.forEach(button => button.disabled = true);
+
+  if (selectedOption.name === correctAnswer.name && selectedOption.artist === correctAnswer.artist) {
+    score++;
+    buttonElement.classList.add("correct");
+  } else {
+    buttonElement.classList.add("wrong");
+    buttons.forEach(button => {
+      if (button.textContent.includes(`${correctAnswer.name} - ${correctAnswer.artist}`)) {
+        button.classList.add("correct");
+      }
+    });
   }
 
-  function checkAnswer(selectedName, selectedArtist) {
-    if (currentQuestionIndex >= questions.length) return;
+  localStorage.setItem("playerScore", score);
 
-    const q = questions[currentQuestionIndex];
-    audio.pause();
-    audio.currentTime = 0;
-
-    if (selectedName === q.name && selectedArtist === q.artist) {
-      score += 10;
+  setTimeout(() => {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+      showQuestion();
     } else {
-      score -= 5;
+      showFinalScreen();
     }
+  }, 2000);
+}
 
     localStorage.setItem("playerScore", score);
     scoreText.textContent = `Pontuação: ${score}`;
